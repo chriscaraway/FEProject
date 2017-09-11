@@ -1,0 +1,110 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://farm5.staticflickr.com/4408/36355410923_1e502dc0b2.jpg");
+    background-color: #cccccc;
+}
+
+h1 {
+  font-family: "Paralines-Regular", sans-serif;
+  font-size: 120px
+
+}
+
+  h1{text-align: center;
+  position: relative;
+  padding: 0 150px}
+
+.jukebox-header {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	padding: 0 300px;
+	background: url("https://farm5.staticflickr.com/4408/36355410923_1e502dc0b2.jpg");
+	border-top: 1px solid #CCC;
+	text-align: center;
+}
+
+.jukebox-controls-btn {
+	font-family: "Paralines-Regular", sans-serif;
+	position: relative;
+	background: none;
+	border: none;
+	width: 65px;
+	height: 65px;
+	line-height: 45px;
+	padding: 0;
+	text-indent: -9999px;
+	background-size: 35% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+	outline: none;
+}
+
+#prevButt {
+	font-family: "Paralines-Regular", sans-serif;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#playButt {
+	font-family: "Paralines-Regular", sans-serif;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#pauseButt {
+	font-family: "Paralines-Regular", sans-serif;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#stopButt {
+	font-family: "Paralines-Regular", sans-serif;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#nextButt {
+	font-family: "Paralines-Regular", sans-serif;
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
