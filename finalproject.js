@@ -24,19 +24,26 @@ document.addEventListener('DOMContentLoaded', function() {
             // https://www.w3schools.com/tags/av_prop_currenttime.asp
             this.currentSong.currentTime = 0; // currentTime is a built-in method
         }
-        this.nextFunc = function() {
+        this.nextFunc = function(opt_val) {
             this.stopFunc();
-            this.index++
+            if (opt_val) {
+                this.index += opt_val;
+            } else {
+                this.index++;
+            }
             if (this.index === this.songList.length) {
                 this.index = 0;
             }
+            if (this.index < 0) {
+                this.index  = this.songList.length -1;
+            }
             this.playFunc();
         }
-        this.chooseSong = function(whichSong) {
-            this.stopFunc();
-            this.index = whichSong;
-            this.playFunc();
-        }
+        // this.chooseSong = function(whichSong) {
+        //     this.stopFunc();
+        //     this.index = whichSong;
+        //     this.playFunc();
+        // }
     } // end constructor function Jukebox object
 
 
